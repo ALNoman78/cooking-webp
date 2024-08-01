@@ -27,7 +27,6 @@ main{
 }
 .recipe-subcontent{
     width: 95%;
-    border: 2px solid red;
     background: hsl(330, 100%, 98%);
     margin: 0 auto;
     border-radius: 10px;
@@ -56,13 +55,23 @@ main{
     color: #313131;
     margin: 20px 0;
 }
-.section-recipe-content ul{
+.section-recipe-content ul , .section-recipe-content ol{
     padding: 10px 25px;
-    border: 2px solid red;
 }
-.section-recipe-content ul li{
+.section-recipe-content ul li , .section-recipe-content ol li{
     padding: 6px 15px;
 }
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    padding: 9px 30px;
+  }
 /* main section styles end */
 
 /* shared-styles start */
