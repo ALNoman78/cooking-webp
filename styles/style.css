@@ -37,7 +37,7 @@ main{
     font-family: "Outfit";
     font-weight: 700;
     padding: 10px 21px;
-    color: #68364D;
+    color: hsl(332, 51%, 32%);
 }
 .recipe-subcontent ul li {
     padding: 7px 0;
@@ -56,4 +56,18 @@ main{
     color: #313131;
     margin: 20px 0;
 }
+.section-recipe-content ul{
+    padding: 10px 25px;
+    border: 2px solid red;
+}
+.section-recipe-content ul li{
+    padding: 6px 15px;
+}
 /* main section styles end */
+
+/* shared-styles start */
+.color  {
+    color: hsl(14, 45%, 36%);
+    font-size: 1.23rem;
+}
+/* shared-styles end */
